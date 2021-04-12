@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_62" data-name="Rectangle 62" width="1920" height="1080" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.138" y1="0.864" x2="0.953" y2="0.082" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4e1733"/>
+      <stop offset="1" stop-color="#1d161a"/>
+    </linearGradient>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 2464 1488">
+      <image width="2464" height="1488" xlink:href="../Pictures/Saved%20Pictures/6.png"/>
+    </pattern>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" clip-path="url(#clip-path)">
+    <path id="Path_876" data-name="Path 876" d="M0,0H1920V1080H0Z" fill="url(#linear-gradient)"/>
+    <rect id="_6" data-name="6" width="685" height="414" transform="translate(-306 873)" opacity="0.23" fill="url(#pattern)"/>
+    <image id="_3" data-name="3" width="1479" height="713" transform="matrix(0.995, 0.105, -0.105, 0.995, 1655.315, -399.346)" opacity="0.3" xlink:href="../Pictures/Saved%20Pictures/3.png"/>
+  </g>
+</svg>
