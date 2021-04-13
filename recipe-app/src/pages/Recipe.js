@@ -9,7 +9,7 @@ const Recipe = () => {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState("chicken");
+  const [query, setQuery] = useState("random");
 
   useEffect(async () => {
     RecipesGET();
@@ -41,32 +41,31 @@ const Recipe = () => {
 
   return (
     <body className="RecipeBody">
-      <section>
-        <NavBar />
-        <div className="Recipe">
-          <form onSubmit={SearchGET} className="form-search">
-            <input
-              className="input-search"
-              type="text"
-              value={search}
-              onChange={SearchUPDATE}
-            />
-            <button className="button-search" type="submit">
-              Search
-            </button>
-          </form>
+      <NavBar />
+      <div className="Recipe">
+        <form onSubmit={SearchGET} className="form-search">
+          <input
+            className="input-search"
+            type="text"
+            value={search}
+            onChange={SearchUPDATE}
+          />
+          <button className="button-search" type="submit">
+            Search
+          </button>
+        </form>
+        <div className="recipes">
           {recipes.map((recipe) => (
             <RecipeINFO
               key={recipe.recipe.label}
               title={recipe.recipe.label}
               image={recipe.recipe.image}
-              calories={recipe.recipe.calories}
               url={recipe.recipe.url}
               ingredients={recipe.recipe.ingredients}
             />
           ))}
         </div>
-      </section>
+      </div>
     </body>
   );
 };
