@@ -11,8 +11,9 @@ body.HomeBody {
 }
 
 body.RecipeBody {
-  background-image: url(./recipeBg.svg);
+  background-image: url(./recipeBg1.svg);
   background-repeat: no-repeat !important;
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
