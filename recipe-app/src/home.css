@@ -1,8 +1,105 @@
 body {
-    width: 100%;
-    min-height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 }
 
 body.HomeBody {
-    background-image: url(./background.svg);
-  }
+  background-image: url(./bg1.svg);
+  background-repeat: no-repeat !important;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* NAVBAR STYLES */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-height: 11vh;
+  align-items: center;
+  font-family: inter;
+}
+
+nav .logo {
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #dc4f6e;
+  text-shadow: 1px 1px #000000;
+}
+
+nav .nav-links {
+  display: flex;
+  font-size: 45px;
+  width: 50%;
+  text-transform: uppercase;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-right: 450px;
+  color: #dc4f6e;
+  text-shadow: 1px 1px #000000;
+}
+
+nav .nav-links a {
+  color: #dc4f6e;
+}
+
+nav .nav-links a:hover {
+  border-bottom: 1px solid #dc4f6e;
+}
+
+/* HOMEPAGG */
+/* 'Find new Recipe's today!' STYLING */
+
+h1.homeh1 {
+  align-items: center;
+  padding-bottom: 250px;
+  font-size: 69px;
+  letter-spacing: 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #dc4f6e;
+}
+
+/* 'Click below to get started STYLING' */
+
+h2.homeh2 {
+  align-items: center;
+  font-size: 36px;
+  letter-spacing: 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #dc4f6e;
+  font-family: "Mundial Regular", sans-serif;
+  font-weight: 100;
+}
+
+.homeBtn {
+  align-items: center;
+  border-radius: 50px;
+  font-size: 34px;
+  border-radius: 2px;
+  background: #000000;
+  position: absolute;
+  background: transparent;
+  width: 23%;
+  height: 8%;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #dc4f6e;
+  background-color: #260a18;
+  border: none;
+  transition: 1s ease-in-out;
+  cursor: pointer;
+  box-shadow: 1px 8px 50px rgba(0, 0, 0, 0.1);
+  font-family: "Mundial Regular", sans-serif;
+  font-weight: 500;
+}

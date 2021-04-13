@@ -1,10 +1,14 @@
-import React from 'react';
-
+import React from "react";
+import "../recipe.css";
+import NavBar from "../NavBar";
 
 export default function Recipe() {
-    return (
-        <div>
-            <h1>Recipe</h1>
-        </div>
-    );
+  return (
+    <body className="RecipeBody">
+      <section>
+        <NavBar />
+        <h1>Recipe</h1>
+      </section>
+    </body>
+  );
 }
