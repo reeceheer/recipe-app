@@ -9,18 +9,34 @@ const Recipe = () => {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
+  const [query, setQuery] = useState("chicken");
 
   useEffect(async () => {
     RecipesGET();
-  }, []);
+  }, [query]);
+
+  // function to get recipies from api
 
   const RecipesGET = async () => {
     const response = await fetch(
-      `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`
+      `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
     );
     const data = await response.json();
     setRecipes(data.hits);
     console.log(data.hits);
+  };
+
+  // Allows search to make
+
+  const SearchUPDATE = (e) => {
+    setSearch(e.target.value);
+  };
+
+  // When submit buttion is hit, seraches for recipe
+  const SearchGET = (e) => {
+    e.preventDefault();
+    setQuery(search);
+    setSearch("");
   };
 
   return (
@@ -28,8 +44,13 @@ const Recipe = () => {
       <section>
         <NavBar />
         <div className="Recipe">
-          <form className="form-search">
-            <input className="input-search" type="text" value={search} />
+          <form onSubmit={SearchGET} className="form-search">
+            <input
+              className="input-search"
+              type="text"
+              value={search}
+              onChange={SearchUPDATE}
+            />
             <button className="button-search" type="submit">
               Search
             </button>
@@ -41,7 +62,7 @@ const Recipe = () => {
               image={recipe.recipe.image}
               calories={recipe.recipe.calories}
               url={recipe.recipe.url}
-              totalWeight={recipe.recipe.totalWeight}
+              ingredients={recipe.recipe.ingredients}
             />
           ))}
         </div>

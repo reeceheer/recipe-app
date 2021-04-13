@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.RecipeBody {
+  min-height: 100vh;
+}
+
+.form-search {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

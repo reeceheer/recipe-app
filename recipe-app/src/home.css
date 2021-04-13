@@ -112,5 +112,58 @@ h2.homeh2 {
   font-weight: 500;
 }
 
+.homeBtn:focus {
+  outline: 0 !important;
+}
+
 .button-search {
+}
+
+.RecipeBody {
+  min-height: 100vh;
+}
+
+.form-search {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-search {
+  background: #260a18;
+  align-items: center;
+  font-size: 34px;
+  width: 40%;
+  height: 20%;
+  border: none;
+  font-family: "Mundial Regular", sans-serif;
+  font-weight: 500;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+}
+
+.input-search:focus {
+  outline: 0 !important;
+}
+
+.button-search {
+  background: #260a18;
+  align-items: center;
+  font-size: 34px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 20%;
+  border: none;
+  font-family: "Mundial Regular", sans-serif;
+  font-weight: 500;
+  border-radius: 2px;
+  padding-right: 40px;
+  padding-left: 20px;
+}
+
+.button-search:focus {
+  outline: 0 !important;
 }
