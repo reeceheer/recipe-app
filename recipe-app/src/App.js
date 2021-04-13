@@ -6,7 +6,7 @@ import About from "./pages/About";
 import Recipe from "./pages/Recipe";
 import NavBar from "./NavBar";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <Switch>
@@ -16,6 +16,6 @@ function App() {
       </Switch>
     </Router>
   );
-}
+};
 
 export default App;
