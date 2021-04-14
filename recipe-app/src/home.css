@@ -19,6 +19,13 @@ body.RecipeBody {
   width: 100%;
 }
 
+body.AboutBody {
+  background-image: url(./aboutBg3.png);
+  background-repeat: no-repeat !important;
+  height: 100%;
+  width: 100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -30,12 +37,10 @@ nav {
   justify-content: space-around;
   min-height: 11vh;
   align-items: center;
-  font-family: inter;
 }
 
 nav .logo {
   font-size: 60px;
-  text-transform: uppercase;
   color: #dc4f6e;
   text-shadow: 1px 1px #000000;
 }
@@ -218,4 +223,16 @@ h2.homeh2 {
   padding-right: 30px;
   font-size: 20px;
   color: white;
+}
+
+.aboutTEXT span {
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: relative;
+  font-size: 40px;
+  margin-top: 100px;
+  visibility: hidden;
 }

@@ -1,0 +1,40 @@
+<svg id="Group_7" data-name="Group 7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #dc4f6e;
+        font-size: 63px;
+        font-family: Mundial-Demibold, Mundial;
+        font-weight: 300;
+      }
+
+      .cls-3 {
+        filter: url(#THIS_RECIPE_WEBSITE_ALLOWS_YOU_TO_SEARCH_FOR_RECIPES_EASILY_WITHIN_A_FEW_CLICKS._IT_IS_DESIGNED_THIS_WAY_SO_USERS_WHO_HAVE_VISUAL_IMPAIRMENT_ISSUES_CAN_EASILY_BROWSE_THROUGH_RECIPES_WITHOUT_DISCOMFORT._);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.138" y1="0.864" x2="0.953" y2="0.082" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4e1733"/>
+      <stop offset="1" stop-color="#1d161a"/>
+    </linearGradient>
+    <filter id="THIS_RECIPE_WEBSITE_ALLOWS_YOU_TO_SEARCH_FOR_RECIPES_EASILY_WITHIN_A_FEW_CLICKS._IT_IS_DESIGNED_THIS_WAY_SO_USERS_WHO_HAVE_VISUAL_IMPAIRMENT_ISSUES_CAN_EASILY_BROWSE_THROUGH_RECIPES_WITHOUT_DISCOMFORT._" x="149" y="313" width="1622" height="461" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Path_876" data-name="Path 876" class="cls-1" d="M0,0H1920V1080H0Z"/>
+  <g class="cls-3" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <text id="THIS_RECIPE_WEBSITE_ALLOWS_YOU_TO_SEARCH_FOR_RECIPES_EASILY_WITHIN_A_FEW_CLICKS._IT_IS_DESIGNED_THIS_WAY_SO_USERS_WHO_HAVE_VISUAL_IMPAIRMENT_ISSUES_CAN_EASILY_BROWSE_THROUGH_RECIPES_WITHOUT_DISCOMFORT._2" data-name="THIS RECIPE WEBSITE ALLOWS YOU TO SEARCH FOR 
+RECIPES EASILY WITHIN A FEW CLICKS. IT IS
+DESIGNED THIS WAY SO USERS WHO HAVE
+ VISUAL IMPAIRMENT ISSUES CAN EASILY
+BROWSE THROUGH RECIPES WITHOUT
+DISCOMFORT. " class="cls-2" transform="translate(960 369)"><tspan x="-801.404" y="0">THIS RECIPE WEBSITE ALLOWS YOU TO SEARCH FOR </tspan><tspan x="-661.146" y="76">RECIPES EASILY WITHIN A FEW CLICKS. IT IS</tspan><tspan x="-650.149" y="152">DESIGNED THIS WAY SO USERS WHO HAVE</tspan><tspan x="-623.402" y="228" xml:space="preserve"> VISUAL IMPAIRMENT ISSUES CAN EASILY</tspan><tspan x="-588.103" y="304">BROWSE THROUGH RECIPES WITHOUT</tspan><tspan x="-217.685" y="380">DISCOMFORT. </tspan></text>
+  </g>
+</svg>

@@ -5,7 +5,7 @@ function NavBar() {
     <div>
       <nav>
         <a className="logo" href="/">
-          NAME
+          SMPLrecipes
         </a>
         <ul className="nav-links">
           <li>
